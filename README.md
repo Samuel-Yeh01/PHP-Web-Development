@@ -1,4 +1,4 @@
-###安裝方式
+### 安裝方式
 
 ##### 本次作品使用 [XAMPP](https://www.apachefriends.org/zh_tw/download.html) 安裝模組來開發
 
