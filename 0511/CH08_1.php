@@ -15,7 +15,15 @@
     $clientIP = $_SERVER[REMOTE_ADDR];
     $clientPort = $_SERVER[REMOTE_PORT];
     $clientSoftware = $_SERVER[HTTP_SEC_CH_UA];
-    // TODO: 把變數所存取的資料顯示出來~
+    $clientLanguage = $_SERVER[HTTP_ACCEPT_LANGUAGE];
+    echo "伺服器IP位址:".$serverIp.'<br/>';
+    echo "伺服器通訊埠:".$serverPort.'<br/>';
+    echo "用戶端IP位址:".$clientIp.'<br/>';
+    echo "用戶端通訊埠:".$clientPort.'<br/>';
+    echo "伺服器軟體:".$software.'<br/>';
+    echo "用戶端軟體:".$clientSoftware.'<br/>';
+    echo "網頁軟體存放路徑:".$serverPath.'<br/>';
+    echo "網頁語言:".$clientLanguage.'<br/>';
     ?>
 </body>
 </html>
